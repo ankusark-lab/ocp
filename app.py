@@ -9,4 +9,4 @@ def hello():
     return f"<h1>Build Successful!</h1><p>Running on Pod: {pod_name}</p>"
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=3333)
